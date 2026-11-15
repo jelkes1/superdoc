@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build your own review queue | SuperDoc example</title>
+<meta name="description" content="Build your own review queue using SuperDoc and the homepage sample.">
+<link rel="canonical" href="https://www.superdoc.dev/examples/review-custom/index.html">
+<link rel="alternate" type="text/markdown" href="https://www.superdoc.dev/examples/review-custom.md">
+</head>
+<body>
+<header>
+<h1>Build your own review queue</h1>
+<p>Keep the editor toolbar and render your own tracked change queue. Each row can reveal, accept or reject its exact change, and reports failed decisions.</p>
+<div class="actions">
+<button id="export" type="button" disabled>Export DOCX</button>
+<output id="status" role="status">Opening document…</output>
+</div>
+<p>
+<a href="https://docs.superdoc.dev/editor/custom-ui/tracked-changes/">Current documentation</a> · <a href="https://github.com/superdoc/docx-editor/tree/main/examples/homepage-review-custom">View on GitHub</a> · <a href="https://www.superdoc.dev/examples/review-custom.zip">Download this project</a> · <a href="https://www.superdoc.dev/examples/review-custom.md">Read the complete source</a>
+</p>
+</header>
+<div id="toolbar">
+</div>
+<main>
+<div id="editor">
+</div>
+<aside aria-labelledby="review-heading">
+<h2 id="review-heading">Your review queue</h2>
+<p id="count">Reading changes…</p>
+<ul id="changes">
+</ul>
+</aside>
+</main>
+<script type="module" src="./main.ts">
+</script>
+</body>
+</html>

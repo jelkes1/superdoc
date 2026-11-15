@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fill the service agreement | SuperDoc example</title>
+<meta name="description" content="Fill the service agreement using SuperDoc and the homepage sample.">
+<link rel="canonical" href="https://www.superdoc.dev/examples/template/index.html">
+<link rel="alternate" type="text/markdown" href="https://www.superdoc.dev/examples/template.md">
+</head>
+<body>
+<header>
+<h1>Fill the service agreement</h1>
+<p>The same six tagged text fields as the homepage. Fill the form, update every matching occurrence, then export the agreement. This sample has one occurrence per tag; the helper also handles repeated tags in your templates.</p>
+<div class="actions">
+<button id="export" type="button" disabled>Export DOCX</button>
+<output id="status" role="status">Opening document…</output>
+</div>
+<p>
+<a href="https://docs.superdoc.dev/editor/content-controls/fill-a-docx-template/">Current documentation</a> · <a href="https://github.com/superdoc/docx-editor/tree/main/examples/homepage-template">View on GitHub</a> · <a href="https://www.superdoc.dev/examples/template.zip">Download this project</a> · <a href="https://www.superdoc.dev/examples/template.md">Read the complete source</a>
+</p>
+</header>
+<div id="toolbar">
+</div>
+<main>
+<div id="editor">
+</div>
+<aside aria-labelledby="fields-heading">
+<h2 id="fields-heading">Your application form</h2>
+<form id="fields">
+<label>Client legal name<input name="client_legal_name" value="Example Company LLC" required>
+</label>
+<label>Effective date<input name="effective_date" value="November 11, 2026" required>
+</label>
+<label>Project name<input name="project_name" value="Customer portal" required>
+</label>
+<label>Project description<input name="project_description" value="Build a customer portal with in-product DOCX editing." required>
+</label>
+<label>Completion date<input name="completion_date" value="December 15, 2026" required>
+</label>
+<label>Project fee (USD)<input name="project_fee" value="$24,000" required>
+</label>
+<button id="apply" type="submit" disabled>Fill agreement</button>
+</form>
+</aside>
+</main>
+<script type="module" src="./main.ts">
+</script>
+</body>
+</html>

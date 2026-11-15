@@ -1,0 +1,1 @@
+The Carlito regular Latin WOFF2 is an OFL evaluation face from Google Fonts. See public/fonts/OFL-Carlito.txt. Supply every weight, style and script your documents need. Rendering substitution preserves the logical DOCX family; it does not embed a replacement in the exported file.

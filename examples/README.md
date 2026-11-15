@@ -35,3 +35,18 @@ pnpm --filter @superdoc/react run build # React example only
 ```
 
 A copied example installs its `superdoc` version from npm and needs neither build.
+
+### Homepage demonstrations
+
+These projects match the public homepage samples. Each includes its Word input, exact editor operations, pinned dependencies, export and an executable behavior check.
+
+- [Open the 1,000-page agreement](./homepage-1000pages)
+- [Embed a DOCX editor](./homepage-editor)
+- [Inspect DOCX font resolution](./homepage-fonts)
+- [Edit a formatted Word document](./homepage-formatting)
+- [Edit international and RTL text](./homepage-i18n)
+- [Review tracked changes](./homepage-review-built-in)
+- [Build your own review queue](./homepage-review-custom)
+- [Propose a tracked edit on your server](./homepage-review-server)
+- [Edit tables and columns](./homepage-tables-columns)
+- [Fill the service agreement](./homepage-template)

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inspect DOCX font resolution | SuperDoc example</title>
+<meta name="description" content="Inspect the fonts a Word file requests, load Carlito and compare an explicit rendering substitution.">
+<link rel="canonical" href="https://www.superdoc.dev/examples/fonts/index.html">
+<link rel="alternate" type="text/markdown" href="https://www.superdoc.dev/examples/fonts.md">
+</head><body>
+<header><h1>Inspect DOCX font resolution</h1><p>The public sample keeps its Word font names. Inspect the report, then compare an explicit Arial to Carlito rendering substitution. Export retains the logical DOCX family.</p>
+<div class="actions"><button id="substitute" type="button" disabled>Use Carlito for Arial</button><button id="reset" type="button" disabled>Remove substitution</button><button id="check-export" type="button" disabled>Check exported font names</button><button id="export" type="button" disabled>Export DOCX</button><output id="status" role="status">Opening document…</output></div>
+<p><a href="https://docs.superdoc.dev/editor/fonts/">Current font documentation</a> · <a href="https://github.com/superdoc/docx-editor/tree/main/examples/homepage-fonts">View on GitHub</a> · <a href="https://www.superdoc.dev/examples/fonts.zip">Download this project</a> · <a href="https://www.superdoc.dev/examples/fonts.md">Read the complete source</a></p></header>
+<div id="toolbar"></div><main><aside aria-label="Document font report"><h2>Requested and rendered fonts</h2><p>This report includes declared document families. A loaded substitute does not establish a faithful match.</p><div id="report" aria-live="polite"></div><output id="export-check" role="status"></output><p><a id="checked-download" download="font-checked.docx" hidden>Download checked DOCX</a></p><details><summary>Full font report</summary><pre id="raw-report" style="white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px"></pre></details></aside><div id="editor"></div></main>
+<script type="module" src="./main.ts"></script></body></html>
