@@ -6,6 +6,7 @@ const form = element<HTMLFormElement>('fields');
 const apply = element<HTMLButtonElement>('apply');
 
 new SuperDoc({
+  telemetry: { enabled: false },
   selector: '#editor',
   document: '/testkit_docs/template-service-agreement.docx',
   ui: { toolbar: { container: '#toolbar', responsiveTo: 'container' }, contentControls: true },

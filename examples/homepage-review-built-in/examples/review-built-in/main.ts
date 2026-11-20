@@ -2,6 +2,7 @@ import { SuperDoc } from 'superdoc';
 import { element, enableExport, showError } from '../shared/browser';
 
 new SuperDoc({
+  telemetry: { enabled: false },
   selector: '#editor',
   document: '/SuperDoc.docx',
   documentMode: 'suggesting',

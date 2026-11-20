@@ -6,7 +6,7 @@ Embed a DOCX with Word tables and section columns. The table structure and colum
 
 Requires Node.js 22 or newer. `npm install` then `npm run dev`. Open the localhost URL Vite prints. To check and build the project, run `npm run check` and `npm run build`.
 
-Browser editor: 2.31.0. Direct dependencies are pinned in package.json.
+Browser editor: 2.33.0. Direct dependencies are pinned in package.json.
 
 ## Build tables and columns in the document
 

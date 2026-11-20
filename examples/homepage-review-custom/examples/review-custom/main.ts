@@ -7,6 +7,7 @@ const count = element('count');
 let pending = false;
 
 const superdoc = new SuperDoc({
+  telemetry: { enabled: false },
   selector: '#editor',
   document: '/SuperDoc.docx',
   documentMode: 'suggesting',
