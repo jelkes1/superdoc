@@ -6,7 +6,7 @@ A complete Node.js agent loop with an OpenAI adapter, bounded tool calls, tracke
 
 Requires Node.js 22 or newer. Set OPENAI_API_KEY and OPENAI_MODEL in your server environment, then run `npm start`. This calls your model provider and may incur its charges. Never expose your key in browser code. The script refuses to overwrite reviewed.docx; move or remove your own prior output before rerunning.
 
-Install dependencies with `npm install` first. Node SDK: 2.28.0. Direct dependencies are pinned in package.json.
+Install dependencies with `npm install` first. Node SDK: 2.30.0. Direct dependencies are pinned in package.json.
 
 ## Try it
 

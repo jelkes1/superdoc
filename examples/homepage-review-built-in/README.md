@@ -6,7 +6,7 @@ The same mutual agreement as the homepage, with existing tracked changes and com
 
 Requires Node.js 22 or newer. `npm install` then `npm run dev`. Open the localhost URL Vite prints. To check and build the project, run `npm run check` and `npm run build`.
 
-Browser editor: 2.31.0. Direct dependencies are pinned in package.json.
+Browser editor: 2.33.0. Direct dependencies are pinned in package.json.
 
 ## Try it
 

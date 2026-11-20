@@ -6,6 +6,7 @@ const output = element('report');
 const substitute = element<HTMLButtonElement>('substitute');
 const reset = element<HTMLButtonElement>('reset');
 const superdoc = new SuperDoc({
+  telemetry: { enabled: false },
   selector: '#editor',
   document: '/SuperDoc.docx',
   ui: { toolbar: { container: '#toolbar', responsiveTo: 'container' } },

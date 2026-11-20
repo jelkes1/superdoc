@@ -3,6 +3,7 @@ import { enableExport, showError } from '../shared/browser';
 
 // #region build-guide
 new SuperDoc({
+  telemetry: { enabled: false },
   selector: '#editor',
   document: '/testkit_docs/international.docx',
   documentMode: 'editing',
